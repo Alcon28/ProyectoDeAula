@@ -2,7 +2,10 @@
 <html lang="es">
     <head>
         <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
     <body>
         <!-- SECCION INICIO -->
@@ -10,10 +13,58 @@
             <div class="contenido">
                 <header>
                     <div class="contenido-header">
+                        <h1>/FS/</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#Inicio" class="seleccionado">INICIO</a></li>
+                                <li><a href="#Introducción">INTRODUCCION</a></li>
+                                <li><a href="#HTML">HTML</a></li>
+                                <li><a href="#CSS">CSS</a></li>
+                                <li><a href="#JAVASCRIPT">JAVASCRIPT</a></li>
+                                <li><a href="#Contacto">CONTACTO</a></li>
+                            </ul>
+                        </nav>
                         
+                        <!-- ICONOS DEL MENU RESPONSIVE -->
+                        <div id="icono-nav">
+                            <i class="fa-solid fa-bars"></i>
+                        </div> 
+                        
+                        <!-- ICONOS DE LAS REDES SOCIALES -->
+                        <div class="redes">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                        </div> 
                     </div>
                 </header>
+                
+                <div class="presentacion">
+                    <p class="bienvenida">Bienvenidos</p>
+                    <h2>APLICACIONES WEB <span>HTML, CSS, JavaScript</span></h2>
+                    <p class="descripcion">"La idea no es vivir para siempre, es crear algo que sí lo haga"</p>
+                    <a href="#portfolio">Ir a la Introducción</a>
+                </div>
+                
             </div>
         </section>
+        
+        <!-- SECCION INTRODUCCION -->
+        <!-- SECCION S O B R E M I -->
+        <section id="introduccion">
+            <div class="contenedor-foto">
+                <img src="imagenes/sitio-web-importancia-imagen-destacada.png" alt=""/>
+            </div>
+            <div class="introduccion">
+                <p class="titulo-seccion">Página Web</p>
+                <h2>Hola, Soy <span>Fabián Sánchez</span> </h2>
+                <h3>Estudiante de Ingeniería en Software</h3>
+                <p>En la ingeniería de software se denomina aplicación web es aquella herramienta que los usuarios pueden utilizar accediendo a un servidor web a través de internet o de una intranet mediante un navegador.</p>
+                <p>En cualquier momento, lugar y desde cualquier dispositivo puedes acceder a este servicio, solo necesitas una conexión a internet y tus datos de acceso, que, por lo general, son el nombre de usuario y contraseña.</p>
+                <p>Estos grandes servidores de internet que prestan el servicio de alojamiento están ubicados alrededor de todo el mundo, así hacen que el servicio prestado no sea tan costoso, o que sea gratuito, en la mayoría de los casos, y extremadamente seguro.</p>
+            </div>
+        </section>
+
+        
     </body>
 </html>
