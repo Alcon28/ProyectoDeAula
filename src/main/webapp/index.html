@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+    
     <head>
         <title>Start Page</title>
         <meta charset="UTF-8">
@@ -7,6 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
     <body>
         <!-- SECCION INICIO -->
         <section id="inicio">
@@ -16,20 +19,19 @@
                         <h1>/FS/</h1>
                         <nav id="nav" class="">
                             <ul id="links">
-                                <li><a href="#Inicio" class="seleccionado">INICIO</a></li>
-                                <li><a href="#Introducción">INTRODUCCION</a></li>
-                                <li><a href="#HTML">HTML</a></li>
-                                <li><a href="#CSS">CSS</a></li>
-                                <li><a href="#JAVASCRIPT">JAVASCRIPT</a></li>
-                                <li><a href="#Contacto">CONTACTO</a></li>
+                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#introduccion" onclick="seleccionar(this)">INTRODUCCIÓN</a></li>
+                                <li><a href="#definicion" onclick="seleccionar(this)">DEFINICIÓN</a></li>
+                                <li><a href="#html" onclick="seleccionar(this)">HTML</a></li>
+                                <li><a href="#css" onclick="seleccionar(this)">CSS</a></li>
+                                <li><a href="#javascript" onclick="seleccionar(this)">JAVASCRIPT</a></li>
+                                <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
                             </ul>
                         </nav>
-                        
                         <!-- ICONOS DEL MENU RESPONSIVE -->
-                        <div id="icono-nav">
+                        <div id="icono-nav" onclick="responsiveMenu()">
                             <i class="fa-solid fa-bars"></i>
                         </div> 
-                        
                         <!-- ICONOS DE LAS REDES SOCIALES -->
                         <div class="redes">
                             <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -38,33 +40,32 @@
                         </div> 
                     </div>
                 </header>
-                
+                 <!-- CONTENIDO DE LA PARTE PRINCIPAL -->
                 <div class="presentacion">
                     <p class="bienvenida">Bienvenidos</p>
                     <h2>APLICACIONES WEB <span>HTML, CSS, JavaScript</span></h2>
                     <p class="descripcion">"La idea no es vivir para siempre, es crear algo que sí lo haga"</p>
-                    <a href="#portfolio">Ir a la Introducción</a>
-                </div>
-                
+                    <a href="#introduccion">Ir a la Introducción</a>
+                </div> 
             </div>
         </section>
-        
-        <!-- SECCION INTRODUCCION -->
-        <!-- SECCION S O B R E M I -->
+        <!-- SECCION INTRODUCCIÓN -->
         <section id="introduccion">
             <div class="contenedor-foto">
-                <img src="imagenes/sitio-web-importancia-imagen-destacada.png" alt=""/>
+                <img src="imagenes/imagen persona.jpg" alt=""/>
             </div>
             <div class="introduccion">
-                <p class="titulo-seccion">Página Web</p>
+                <p class="titulo-seccion">INTRODUCCIÓN</p>
                 <h2>Hola, Soy <span>Fabián Sánchez</span> </h2>
                 <h3>Estudiante de Ingeniería en Software</h3>
-                <p>En la ingeniería de software se denomina aplicación web es aquella herramienta que los usuarios pueden utilizar accediendo a un servidor web a través de internet o de una intranet mediante un navegador.</p>
-                <p>En cualquier momento, lugar y desde cualquier dispositivo puedes acceder a este servicio, solo necesitas una conexión a internet y tus datos de acceso, que, por lo general, son el nombre de usuario y contraseña.</p>
-                <p>Estos grandes servidores de internet que prestan el servicio de alojamiento están ubicados alrededor de todo el mundo, así hacen que el servicio prestado no sea tan costoso, o que sea gratuito, en la mayoría de los casos, y extremadamente seguro.</p>
+                <p>La tecnología ha ido evolucionando de manera impresionante, hace muchos años los teléfonos móviles solo podían enviar mensajes de texto y realizar llamadas, pero con el avance de la tecnología, hoy en día cuentan con una conexión a internet y pueden realizar un sinnúmero de operaciones.</p>
+                <p>Las computadoras hace muchos años eran muy pesadas y costosas, hoy en día son más ligeras y hay desde costos bajos asta costos altos volviéndose accesible para cualquier persona.</p>
+                <p>Como se puede observar, lo mismo ha sucedido con la conexión a internet, donde hace años no era muy accesible poder contar con una red, pero hoy en día el 90% de las personas goza de estos servicios. Existen un sinnúmero de aplicaciones y páginas web disponibles para los usuarios que van desde gratuita asta pagada. Para poder obtener un libro tenías que ir a una biblioteca o tienda, hoy lo puedes encontrar en una página web.
+                    Cabe destacar que no todo es bueno, ya que por medio de estos servidores web han podido robar la información de muchos usuarios, por lo que es recomendable acceder solo a aplicaciones y páginas web que sean seguras.</p>
+                <p>A continuación se presentará una pequeña definición de que es aplicación web con unos pequeños ejemplos y se dará a conocer algunas herramientas para que puedas desarrollar tus propias aplicaciones y páginas web.</p>
             </div>
         </section>
 
-        
+
     </body>
 </html>

@@ -128,3 +128,66 @@ html {
     color: #fff;
     display: none;
 }
+
+/* *********************/
+/* seccion INTRODUCCIÓN */
+/* *********************/
+
+#introduccion {
+    max-width: 2100px; /* define el ancho máximo que un elemento puede tener. Doble columna */
+    margin: auto;
+    padding: 100px 50px;
+    color: #111135;
+    display: flex;
+}
+
+#introduccion .contenedor-foto {
+    max-width: 440px;
+    margin-left: 30px;
+    margin-right: 40px; /* establece el margen derecho de un elemento especificando una longitud o un porcentaje tamaño img*/
+}
+#introduccion .contenedor-foto img {
+    padding: 20px;
+    width: 100%; /* ancho fondo de imagen*/
+    height: 100%; /* largo fondo de imagen*/
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+
+#introduccion .introduccion {
+    margin: 0 40px;
+}
+#introduccion .introduccion .titulo-seccion {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#introduccion .introduccion h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#introduccion .introduccion h2 span {
+    color: #ED0548;
+}
+#introduccion .introduccion h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#introduccion .introduccion p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 12px;
+    text-align:justify;
+}
